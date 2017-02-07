@@ -127,8 +127,6 @@ public class ApConfigUtil {
                 && countryCode == null) {
             Log.e(TAG, "5GHz band is not allowed without country code");
             Log.e(TAG, "[fullgreen test]ApConfigUtil.java 129 line");
-            countryCode = KR
-            Log.e(TAG, "[fullgreen test]Country code set to KR");
             return SUCCESS;
         }
 
